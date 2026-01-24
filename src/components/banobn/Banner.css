@@ -1,0 +1,52 @@
+.banner {
+  width: 5000px;
+  height: 40vh;
+  background-image: url(../../../public/assets/images/download.png)
+;
+  
+  
+  position: relative;
+ border-radius: 12px;
+}
+
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(30, 116, 202, 0.8),
+    rgba(1, 163, 147, 0.7)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: white;
+}
+
+.banner-overlay h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.banner-overlay p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.banner-overlay button {
+  width: fit-content;
+  padding: 14px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  color: #1976d2;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banner-overlay button:hover {
+  background-color: #e3f2fd;
+}
+
