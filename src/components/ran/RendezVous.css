@@ -1,0 +1,45 @@
+.rdv {
+  max-width: 820px;        
+  margin: 80px auto;
+  padding: 35px;         
+   background: #18b0ec;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.rdv h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;        
+  font-size: 26px;     
+}
+
+.rdv input {
+  width: 100%;
+  padding: 14px;        
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  font-size: 16px;
+}
+
+.rdv input:focus {
+  outline: none;
+  border-color: #1e7f5c;
+}
+
+.rdv button {
+  width: 100%;
+  padding: 14px;
+  background: #1e7f5c;   
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.rdv button:hover {
+  background: #16664a;
+}

@@ -10,7 +10,7 @@ const categories = [
   {
     id: 2,
     title: "Pédiatrie",
-    image: "/assets/images/pediatrie.png",
+    image: "/assets/images/o.jpg",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const categories = [
   {
     id: 5,
     title: "Dermatologie",
-    image: "/assets/images/derm.png",
+    image: "/assets/images/derma.jpg",
   },
   {
     id: 6,

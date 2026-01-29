@@ -1,0 +1,42 @@
+.conseils {
+  margin: 100px auto;
+  padding: 60px 20px;
+  background: #18b0ec;
+  text-align: center;
+  border: 0ch;
+   border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 2000px;
+}
+
+.conseils h2 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.conseils-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.conseil-card {
+  background: #f4fbf8;
+  padding: 30px 22px;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+}
+
+.conseil-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #1e7f5c;
+}
+
+.conseil-card p {
+  font-size: 15px;
+  color: #555;
+}

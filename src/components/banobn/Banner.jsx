@@ -8,7 +8,7 @@ const Banner = () => {
         
         <h1>Ma Santé</h1>
         <p>Votre santé, notre priorité</p>
-        <button>Prendre rendez-vous</button>
+       
       </div>
     </div>
   );
